@@ -1,14 +1,173 @@
-<!doctype html>
 <html>
-    <head>
-        <title>Example Domain</title>
+<head>
+    <title>E-Game</title>
 
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+        <style type="text/css">
+        
+            #frame1{
+                
+                background-color: aliceblue;
+                width: 1440;
+                height: 200px;
+                float: left;
+                position: fixed;
+                z-index: 2;
+            }   
+        
+            body{
+            
+                margin: 0;
+                padding: 0;
+            }
+        
+            .navbar{
+                
+                background-color: red;
+                position: fixed;
+                top: 50px;
+                left : 240px;
+                margin-left: 240px;
+                margin-top: 50px;
+                margin: 0 auto;
+                width: 1010px;
+                height: 30px;
+                
+                
+            }
+            
+            .nav-section {
+                
+                background-color:#424949;
+                width: 200px;
+                height: 28px;
+                float: left;
+                border-right-color: #121212;
+                border-right-style: solid;
+                border-right-width: 2px;
+                text-align: center;
+                font-size: 120%;
+                padding-top: 2px;
+                
+                
+                
+            }
+            
+            .nav-section:hover {
+                
+                background-color: #FF2501;
+                
+                
+            }
+            
+            a {
+                
+                color: whitesmoke;
+                text-decoration: none;
+            }
+            
+            .nav-text{
+                
+                font-family: 'Orbitron', sans-serif;
+                
+            }
+             #logo{
+                
+                float:left;
+                position: fixed;
+                width: 200px;
+                height: 180px;
+                left: 30px;
+                top: -10px;
+                margin-top: 20px;
+            }
+            
+             #backm {
+                
+                align-self: center;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                max-width:100%;
+                height:auto;
+                opacity: 0.1;
+                position: fixed;
+                top: -250px;
+                left: 250px; 
+                z-index: 1;
+                
+            }    
+            
+            #back {
+                
+                background-color: #121212;
+                
+            }
+            
+            #left-frame{
+                
+               
+                width: 240px;
+                height: 1000px;
+                background-color: antiquewhite; 
+                float: left;
+                z-index: 0;
+            }
+            
+            #Middle-frame{
+                
+                margin-left: 20px;
+                width: 920px;
+                height: 1000px;
+                background-color: aqua; 
+                float: left;
+                z-index: 0;
+            }
+            
+            #right-frame{
+                
+               
+                width: 240px;
+                height: 1000px;
+                background-color: antiquewhite; 
+                float: right;
+                z-index: 0;
+            }
+            
+             
+        </style>    
+</head>
 
-    </head>
-
-    <body>
-
+    <body id="back">
     
-    
+        <img src="back2.jpg" id="backm">
+        <div id="frame1">
+            <img src="IMG-20200607-WA0016.jpg" id="logo">
+                <div class="navbar">
+                    <a href=""><div class="nav-section"><span class="nav-text">Home</span></div></a>
+                    <a href=""><div class="nav-section"><span class="nav-text">PUBG</span></div></a>
+                    <a href=""><div class="nav-section"><span class="nav-text">CS:GO</span></div></a>
+                    <a href=""><div class="nav-section"><span class="nav-text">Videos</span></div></a>
+                    <a href=""><div class="nav-section"><span class="nav-text">About</span></div></a>
+                </div>
+        </div>
+        <div id="left-frame">
+        
+        
+        
+        </div>
+        <div id="right-frame">
+        
+        
+        
+        </div>
+        <div id="Middle-frame">
+        
+        
+        
+        </div>
     </body>
 </html>
